@@ -1,0 +1,26 @@
+{
+  "required_api_version": "^2.0.0",
+  "name": "Random generator",
+  "description": "Random generator",
+  "developer_name": "joaogsleite",
+  "icon": "images/icon.png",
+  "options": {
+    "query_debounce": 0.1
+  },
+  "preferences": [
+    {
+      "id": "keyword",
+      "type": "keyword",
+      "name": "Extension",
+      "description": "",
+      "default_value": "random"
+    },
+    {
+      "id": "length",
+      "type": "input",
+      "name": "Length",
+      "description": "Generated string length",
+      "default_value": "20"
+    }
+  ]
+}
